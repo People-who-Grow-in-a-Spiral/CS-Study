@@ -9,7 +9,7 @@ Array는 연관된 데이터를 **메모리상에 연속적이며 순차적으�
 **Array vs Linked List**의 비교되는 특징
 1. **메모리에 저장되는 방식**
 2. 1번에 따른 **operation의 연산 속도(time complexity)**<br>
-(이후 Linked List를 하고 추가 예정)
+
 ---
 
 ## Array의 특징
@@ -102,9 +102,80 @@ Append의 전체 과정은 다음과 같다.
 2. size를 넘어서게 되는 상황에서는 데이터를 옮기는 작업(`resize O(n)`)이 발생한다.<br>
    -> 발생 빈도가 1 >>>>>> 2 이므로, 전체적으로 `append`의 **평균적인 시간복잡도는 `O(1)`** 이다.
 
-
 ---
 
 ## 꼬리 질문
 **Q)** Dynamic Array vs Linked List 장단점을 비교하라
+
+---
+<br><br><br>
+
+# Linked List는 어떤 자료구조인가?
+
+## 핵심 개념
+Linked List는 **noed라는 구조체**로 이루어져 있으며, **node에 데이터 값과 다음 node의 address를 저장**하는 자료구조 입니다. <br>
+**메모리 상으로는 비연속적**이지만 next noded의 address를 가짐으로써 **논리적인 연속성**을 가집니다.
+---
+
+## 💡면접 대비 핵심 포인트💡
+1. **tree, graph*등 다른 자료구조를 구현할 떄 자주 쓰이는 자료구조이다.
+2. **메모리 상으로는 불연속적**으로 데이터가 저장 되지만, next node의 address를 가짐으로써 **논리적인 연속성을 보장**한다.
+3. 데이터가 **추가되는 시점에서 메모리를 할당**하기 떄문에 **메모리를 효율적으로 사용**할 수 있다.
+
+---
+
+<img width="702" alt="image" src="https://github.com/user-attachments/assets/644d8a23-bbef-4108-b377-d820f5384936">
+
+## Linked List의 특징
+-핵심 특징 : **메모리 상으로는 비연속적**이지만 next noded의 address를 가짐으로써 **논리적인 연속성**을 가진다.
+
+- Linked List의 장점 : **append**와 **deletion**이 빠르다.  
+-> **데이터의 삽입과 삭제**가 빈번한 작업일 때 자주 Linked List 자료구조를 자주 사용한다.
+
+- Linked List의 단점 :
+   - **access**와 **search**가 느리다.
+   - Array보다 하나 당 차지하는 메모리가 더 크다.(next node address저장) 
+
+---
+
+## 시간복잡도
+⚠️ 핵심 특징 : **유동적 저장 공간**에 **node가 next node의 adderess를 가짐으로써 연결됨**을 기억하며 계산하자!
+
+<img width="761" alt="image" src="https://github.com/user-attachments/assets/20edd1c5-f8ef-4dbc-803d-7f5927ff6cbc">
+
+
+### 접근(access) 탐색(search)
+✅ **이전 node를 거쳐야만 순차적으로 다음 node**로 갈 수 있기 때문에 **`O(n)`**<br>
+
+### 추가(append)와 삽입(insertion)
+**데이터가 추가되는 시점에 메모리를 할당**하고, **next address가 가리키는 값만 변경하면 되기 때문에 `O(1)`**<br>
+
+### 삭제(deletion)
+**next address가 가리키는 값만 변경하면 되기 때문에 `O(1)`**<br>
+
++) 현실적으로 데이터의 추가와 삭제 과정에서는 탐색이 필요하다.
+
+---
+<br>
+<br>
+<br>
+
+# Array vs Linked List 비교
+
+## 핵심 개념
+|          | **Array** | **Linked List** | 비고 |
+|------------|-----------|----------|--------|
+|메모리 저장 방법| **연속적**으로 데이터를 저장 | **비연속적**으로 데이터를 저장 | |
+|access 방법 | 각 데이터에의 **index** | 각 노드에 저장된 **next node address** | |
+|조회/탐색 | **`O(1)`** | **`O(n)`** | 위치에 따라 다름 주의 |
+|삽입/삭제 | **`O(n)`** | **`O(1)`** | 위치에 따라 다음 주의 |
+
+## 결론
+- **Array**
+   - 데이터 크기가 크고 **조회가 빈번**할 경우 적합.
+   - 고정된 사이즈로 인해서 데이터가 저장되어 있지 않더라도 메모리를 차지하기 때문에 **메모리 낭비가 발생**
+- **Linked List**
+   - **삽입/삭제가 빈번**한 경우 적합.
+   - runtime중에도 사이즈 변경 가능하므로, 메모리 낭비가 없음.
+
 
