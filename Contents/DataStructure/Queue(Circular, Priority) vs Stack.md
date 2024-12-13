@@ -5,30 +5,21 @@ Queue는 **선입선출(FIFO: First In First Out)**하는 자료구조입니다.
 
 ---
 
-## 💡면접 대비 핵심 포인트💡
-1. **Queue vs Stack**의 비교되는 특징
-2. Circular queue 자료구조의 특징
-
-
-## 꼬리 질문
-1. Array-base, List-base 의 차이점
-
----
-
 ## Queue의 특징(FIFO)
--핵심 특징 : **선입선출 FIFO(First In First Out)** 형식으로 데이터를 저장한다.
+-핵심 특징 : **선입선출 FIFO(First In First Out)** 형식으로 데이터를 저장
 
 ![image](https://github.com/user-attachments/assets/9e66cab1-d882-4fa8-98cf-e1c9f1d02094)
 
-1. `front`   : 큐의 맨 앞의 위치(인덱스)
-2. `rear`    : 큐의 맨 뒤의 위치(인덱스
-3. `enqueue` : 큐에서 데이터를 추가하는 것
-4. `dequeue` : 큐에서 데이터를 추출하는 것
-5. `peek`    : front에 위치한 데이터를 읽는 것
+1. 구조 및 함수
+   - `front`   : 맨 앞의 위치(인덱스)
+   - `rear`    : 맨 뒤의 위치(인덱스)
+   - `Enqueue` : 데이터를 추가
+   - `Dequeue` : 데이터를 추출
+   - `Peek`    : front에 위치한 데이터를 읽기
 
 ---
 
-## Queue종류(Array-base, List-base, Circular)
+## Queue종류(Array-base, List-base, Circular) 및 시간복잡도
 
 ### ✅ 1. Array-base Queue vs List-base Queue
 |     | Array-base | List-base |
@@ -49,28 +40,44 @@ Queue는 **선입선출(FIFO: First In First Out)**하는 자료구조입니다.
 
 
 # Stack은 어떤 자료구조인가?
-
-# Queue의 기본 개념
-
-`queue`는 선입선출(FIFO: First In First Out)의 자료구조입니다.  
-시간복잡도는 `enqueue O(1)`, `dequeue O(1)` 입니다.  
-활용 예시는 Cache 구현, 프로세스 관리, 너비우선탐색(BFS) 등이 있습니다.
+`stack`은 **후입선출(LIFO: Last In First Out)**하는 자료구조입니다. 
 
 ---
 
 ## 💡 면접 TIP
-> 기초적인 자료구조로 면접에서 간단한 질문으로 종종 나오는 문제입니다.  
-> LIFO인 stack과 다르게 FIFO 자료구조임을 잘 기억하시고 계시면 됩니다.  
-> 또한 활용 예시들과 Circular Queue 자료구조를 잘 알고 계시면 면접에서 충분한 답을 하실 수 있습니다.
+1. `stack`은 **후입선출(LIFO: Last In First Out)**하는 자료구조입니다. 
 
 ---
 
-## FIFO
+## Stack의 특징(LIFO) 및 시간복잡도
+-핵심 특징 : **후입선출 LIFO(Lirst In First Out)** 형식으로 데이터를 저장
 
-`queue`는 시간 순서상 먼저 집어 넣은 데이터가 먼저 나오는  
-선입선출 FIFO(First In First Out) 형식으로 데이터를 저장하는 자료구조입니다.
+![image](https://github.com/user-attachments/assets/2d83f90d-d986-42dc-86d2-d1717271a441)
 
-```plaintext
-dequeue O(1)                         enqueue O(1)
-        [1][2][3][4][5][6]
-         First In           First Out
+1. 구조 및 함수
+   - **top**  : 마지막 데이터의 위치(인덱스)
+   - **Push** : 데이터를 추가(**`O(1)`**)
+   - **Pop**  : 데이터를 추출(**`O(1)`**)
+   - **Peek** : top의 데이터 읽기
+
+2. 특징
+   - 재귀적인 특징이 있다.
+
+3. 활용 예시
+   - call stack, 후위 표기법 연산, 웹 브라우저 방문기록(뒤로 가기), DFS
+  
+---
+<br><br><br>
+
+## 💡면접 대비 핵심 포인트💡
+1. **Queue vs Stack**의 비교되는 특징(활용 예시 포함)
+2. Circular queue 자료구조의 특징
+
+
+## 💡꼬리 질문
+1. Array-base, List-base 의 차이점
+2. Queue 2개로 Stack 구현하기, Stack 2개로 Queue 구현하기
+     
+
+### 활용 예시
+ -> 
