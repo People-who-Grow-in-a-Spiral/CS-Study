@@ -44,8 +44,8 @@
 ## Data Structure
 ### [🗂 자료구조](./Contents/DataStructure)
  - [HashTable](./Contents/DataStructure/HashTable.md)
- - [Array, Dynamic Array vs Linked List](./Contents/DataStructure/Array, Dynamic Array vs Linked List.md)
- - [Queue(Circular, Priority) vs Stack](./Contents/DataStructure/Queue(Circular, Priority) vs Stack.md)
+ - [Array vs List](./Contents/DataStructure/Array,%20Dynamic%20Array%20vs%20Linked%20List.md)
+ - [Queue vs Stack](./Contents/DataStructure/Queue(Circular,%20Priority)%20vs%20Stack.md)
 
 
 ---
