@@ -34,8 +34,7 @@
 
 
 
- <img src="https://velog.velcdn.com/images/jonghyeok98/post/c6b21e95-217f-4cde-a3c4-9c6541b390db/image.png
-" width="400"/>  
+ <img src="https://velog.velcdn.com/images/jonghyeok98/post/c6b21e95-217f-4cde-a3c4-9c6541b390db/image.png" width="400"/>  
 
 
 
@@ -59,8 +58,7 @@ Symbolic Address
 > - 변수 이름, 함수 이름과 같이 프로그래머가 사용하는 주소   
 > ex) int * a=&n;
 
-<img src="https://velog.velcdn.com/images/jonghyeok98/post/fc3d898d-c872-4ec5-8d73-b15e97f968aa/image.png
-" width="700"/>  
+<img src="https://velog.velcdn.com/images/jonghyeok98/post/fc3d898d-c872-4ec5-8d73-b15e97f968aa/image.png" width="700"/>  
 
 
 ### Compile time
@@ -87,10 +85,8 @@ Symbolic Address
 > * MMU는 논리적 주소를 물리적 주소로 매핑해주는 역할을 하며 논리적 주소에 base register의 값을 더하는 방식이다. 
 > * base register는 하나이며 프로세스끼리 공유한다.
 
-<img src="https://velog.velcdn.com/images/jonghyeok98/post/2d335db6-798c-435e-863c-79b9ee2dd772/image.png
-" width="700"/>  
-<img src="https://velog.velcdn.com/images/jonghyeok98/post/ff1d1810-5edf-4233-b4bb-056a51273ff6/image.png
-" width="700"/>  
+<img src="https://velog.velcdn.com/images/jonghyeok98/post/2d335db6-798c-435e-863c-79b9ee2dd772/image.png" width="700"/>  
+<img src="https://velog.velcdn.com/images/jonghyeok98/post/ff1d1810-5edf-4233-b4bb-056a51273ff6/image.png" width="700"/>  
 
 
 ### Base register(relocation register)
@@ -116,8 +112,7 @@ Symbolic Address
 > * swap time은 swap되는 양에 비례하다.
 
 
-<img src="https://velog.velcdn.com/images/jonghyeok98/post/51d525c3-c7b5-486e-a5e4-6b5a2f104d85/image.png
-" width="600"/>  
+<img src="https://velog.velcdn.com/images/jonghyeok98/post/51d525c3-c7b5-486e-a5e4-6b5a2f104d85/image.png" width="600"/>  
 
 
 ### 메모리는 일반적으로 두 영역으로 나뉘어 사용되는데
@@ -177,8 +172,7 @@ Symbolic Address
 ### ***first-fit과 best-fit이 worst-fit보다 속도와 공간 이용률 측면에서 효과적인 것으로 알려져 있다***
 
 
-<img src="https://velog.velcdn.com/images/jonghyeok98/post/b1a4a560-eaf3-4921-980f-d8116a8aea76/image.png
-" width="700"/>  
+<img src="https://velog.velcdn.com/images/jonghyeok98/post/b1a4a560-eaf3-4921-980f-d8116a8aea76/image.png" width="700"/>  
 
 
 ## 3. Fragmentation
@@ -192,8 +186,7 @@ Symbolic Address
 * 내부 단편화는 프로세스가 사용하는 메모리 공간보다 분할된 공간이 더 커서 메모리가 남는 경우를 말한다.
 
 
-<img src="https://velog.velcdn.com/images/jonghyeok98/post/507e9b8f-e119-47e6-be99-8802e3b5e7f2/image.png
-" width="700"/>  
+<img src="https://velog.velcdn.com/images/jonghyeok98/post/507e9b8f-e119-47e6-be99-8802e3b5e7f2/image.png" width="700"/>  
 
 
 ### Compaction(압축)
@@ -211,8 +204,7 @@ Symbolic Address
 * 세그먼트 테이블을 이용해 주소변환
 
 
-<img src="https://velog.velcdn.com/images/jonghyeok98/post/bb523bdc-ee40-45e0-bc35-bb3ba83977d8/image.png
-" width="600"/>  
+<img src="https://velog.velcdn.com/images/jonghyeok98/post/bb523bdc-ee40-45e0-bc35-bb3ba83977d8/image.png" width="600"/>  
 
 
 ### Logical address는 다음의 두 가지로 구성된다.
@@ -231,8 +223,7 @@ Symbolic Address
  * segment number s is legal if $s<STLR$
     * 세그먼트 번호가 세그먼트 길이보다 작아야 한다.
 
-<img src="https://velog.velcdn.com/images/jonghyeok98/post/24b4762f-d4a5-4a26-801a-42f7a5dd4d38/image.png
-" width="600"/>  
+<img src="https://velog.velcdn.com/images/jonghyeok98/post/24b4762f-d4a5-4a26-801a-42f7a5dd4d38/image.png" width="600"/>  
 
 > **Segmentation의 장점은 paging과 마찬가지로 segment들이 연속적으로 할당될 필요가 없고, stack과 heap이 독립적으로 커질 수 있으며, segment마다 protection을 따로 수행할 수 있는 등 paging과 유사한 장점을 가지고있다. 하지만, 각각의 segment는 반드시 연속적으로 할당해야 하는 단점이 있다.**
 
@@ -260,8 +251,7 @@ Symbolic Address
 ## 5. paging
 - Paging(페이징)은 Noncontiguous Allocation 방식으로 외부 단편화의 압축 작업의 비효율성을 해결하기 위한 방법으로 메모리는 프레임(Frame), 프로세스는 페이지(Page)라 불리는 고정 크기의 블록(Block)으로 분리된다. 블록의 크기는 2의 거듭제곱 꼴이다.
 
-<img src="https://velog.velcdn.com/images/jonghyeok98/post/6cb02059-04cb-4d41-b33e-9bdbe138902a/image.png
-" width="600"/>  
+<img src="https://velog.velcdn.com/images/jonghyeok98/post/6cb02059-04cb-4d41-b33e-9bdbe138902a/image.png" width="600"/>  
 
 ### ***한 프로세스가 사용하는 공간은 여러 page로 나뉘어 관리되고, 각각의 page는 순서와 관계없이 메모리의 frame에 mapping되어 저장된다.***
 > 프로세스가 순서대로 메모리에 저장되지 않기 때문에 프로세스를 실행하기 위해선 page가 어느 frame에 들어있는지를 알아야 하기 때문에 이에 대한 정보가 page table이라는 테이블에 저장되어 있고, 이를 사용하여 논리적 주소를 물리적 주소로 mapping 한다.
