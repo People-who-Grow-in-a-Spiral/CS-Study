@@ -1,4 +1,4 @@
-# Memory(메모리리)
+# Memory(메모리)
 
 
 ## Memory 란 
