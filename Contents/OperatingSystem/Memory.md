@@ -22,8 +22,7 @@
 
 ### 저장장치 계층구조
 
-<img src="https://velog.velcdn.com/images/jonghyeok98/post/3381a2fa-e680-43a0-8ac0-194f679b52bd/image.png
-" width="700"/>   
+<img src="https://velog.velcdn.com/images/jonghyeok98/post/3381a2fa-e680-43a0-8ac0-194f679b52bd/image.png" width="700"/>   
 
 
 ## 메모리 공간의 종류 
