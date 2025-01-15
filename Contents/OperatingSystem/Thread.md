@@ -72,6 +72,8 @@
 > 
 > IPC(Inter Process Communication): 프로세스간 서로 데이터를 주고받는 행위 또는 그에 대한 방법이나 경로를 뜻한다
 
+![](https://velog.velcdn.com/images/jonghyeok98/post/ab55c8a9-5005-48fe-9ed4-225ae9fe5f21/image.png)
+
 
 ## 프로세스와 스레드의 차이
 > ### 프로세스
