@@ -66,8 +66,8 @@
 
 ## Network
 ### [🗂 네트워크](./Contents/Network)
-- [OSI 7계층, TCP-IP 4계층.md](./Contents/Network/OSI%207%EA%B3%84%EC%B8%B5,%20TCP-IP%204%EA%B3%84%EC%B8%B5.md)
-- [TCP vs UDP.md](./Contents/Network/TCP%20vs%20UDP.md)
+- [OSI 7계층, TCP-IP 4계층](./Contents/Network/OSI%207%EA%B3%84%EC%B8%B5,%20TCP-IP%204%EA%B3%84%EC%B8%B5.md)
+- [TCP vs UDP](./Contents/Network/TCP%20vs%20UDP.md)
 
 ---
 
