@@ -2,9 +2,9 @@
 
 ---
 ## TCP/IP 전송 계층
+> 전송 계층은 응용 계층으로부터 메시지를 받아서 패킷으로 캡슐화하여 전송한다.
 ![image](https://github.com/user-attachments/assets/3ef79c06-1baf-4678-ac82-ac3f0a7de5c0)
 <img width="702" alt="image" src="https://github.com/user-attachments/assets/9f27191a-dfbb-4f8e-9cab-67dd7d9031f0" />
-> 전송 계층은 응용 계층으로부터 메시지를 받아서 패킷으로 캡슐화하여 전송한다.
 
 ---
 ## TCP와 UDP의 특징 및 비교
