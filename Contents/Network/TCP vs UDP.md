@@ -1,4 +1,4 @@
-# TCP(Transmission Control Protocol) vs UDP(User, Datagram Protocol)
+# TCP vs UDP
 
 ---
 ## TCP/IP 전송 계층
