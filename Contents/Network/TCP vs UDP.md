@@ -3,6 +3,8 @@
 ---
 ## TCP/IP 전송 계층
 > 전송 계층은 응용 계층으로부터 메시지를 받아서 패킷으로 캡슐화하여 전송한다.
+<br>
+
 ![image](https://github.com/user-attachments/assets/3ef79c06-1baf-4678-ac82-ac3f0a7de5c0)
 <img width="702" alt="image" src="https://github.com/user-attachments/assets/9f27191a-dfbb-4f8e-9cab-67dd7d9031f0" />
 
@@ -10,7 +12,8 @@
 ## TCP와 UDP의 특징 및 비교
 
 ### TCP(Transfer Control Protocol)
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/aaf8bc2c-f736-477a-a757-cc3ea4c130d3" />
+<img width="636" alt="image" src="https://github.com/user-attachments/assets/905ef370-0051-47a5-af13-ecae3f0ea2ea" />
+
 > 연결형, 신뢰성 전송 프로토콜 / TCP로 전송하는 패킷은 Segement라고 한다.
 - **특징**:
   - 연결형 프로토콜: **데이터 전송 전에 송신자와 수신자 간에 논리적 연결**을 설정.
@@ -32,7 +35,8 @@
 ---
 
 ### UDP(User Datagram Protocol)
-<img width="632" alt="image" src="https://github.com/user-attachments/assets/5a538fc5-68df-4504-b2ed-ae3fe0355b4a" />
+<img width="647" alt="image" src="https://github.com/user-attachments/assets/43ecc8d4-58a2-407f-8358-3487e49d60d5" />
+
 > 비연결형, 비신뢰성 전송 프로토콜 / UDP로 전송하는 패킷을 Datagram이라고 한다
 - **특징**:
   - 비연결형 프로토콜: 연결 설정 없이 데이터를 송신.
