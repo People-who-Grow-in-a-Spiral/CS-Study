@@ -13,6 +13,7 @@ OSI 7계층은 **네트워크 통신을 표준화한 모델**로, 통신 시스�
 
 <img width="704" alt="image" src="https://github.com/user-attachments/assets/cb8dd078-b276-482f-a4f1-770d332ea79f" />
 
+> A Penguin Said That Nobody Drinks Pepsi. 의 앞글자를 따서 외우면 쉽다!
 
 - 특징
   * 각 계층은 하위 계층의 기능을 이용한다. (즉, 상위 계층에게는 기능을 제공한다.) 
