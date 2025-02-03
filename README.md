@@ -4,18 +4,21 @@
 
 ## 👨‍💻  스터디원
 <p>
-<a href="https://github.com/jonghyeok98">
+  <a href="https://github.com/jonghyeok98">
   <img src="https://avatars.githubusercontent.com/u/77715064?v=4" width="100">
-</a>
-<a href="https://github.com/vhzkclq0705">
+  </a>
+  <a href="https://github.com/vhzkclq0705">
   <img src="https://avatars.githubusercontent.com/u/75382687?v=4" width="100">
-</a>
-<a href="https://github.com/altpfwlzh">
+  </a>
+  <a href="https://github.com/altpfwlzh">
   <img src="https://avatars.githubusercontent.com/u/103296628?v=4" width="100">
-</a>
-<a href="https://github.com/binnnnary">
+  </a>
+  <a href="https://github.com/binnnnary">
   <img src="https://avatars.githubusercontent.com/u/127098522?v=4" width="100">
-</a>
+  </a>
+  <a href="https://github.com/binnnnary">
+  <img src="https://avatars.githubusercontent.com/u/66791731?v=4" width="100">
+  </a>
 </p>
  
 ---
