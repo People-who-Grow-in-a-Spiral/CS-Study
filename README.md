@@ -16,7 +16,7 @@
   <a href="https://github.com/binnnnary">
   <img src="https://avatars.githubusercontent.com/u/127098522?v=4" width="100">
   </a>
-  <a href="https://github.com/binnnnary">
+  <a href="https://github.com/poly9010">
   <img src="https://avatars.githubusercontent.com/u/66791731?v=4" width="100">
   </a>
 </p>
