@@ -71,6 +71,7 @@
 ### [🗂 네트워크](./Contents/Network)
 - [OSI 7계층, TCP-IP 4계층](./Contents/Network/OSI%207%EA%B3%84%EC%B8%B5,%20TCP-IP%204%EA%B3%84%EC%B8%B5.md)
 - [TCP vs UDP](./Contents/Network/TCP%20vs%20UDP.md)
+- [3-way handshake & 4-way handshake](./Contents/Network/3-way%20handshake,%204-way%20handshake.md)
 
 ---
 
